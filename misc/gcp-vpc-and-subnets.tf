@@ -16,3 +16,5 @@ resource "google_compute_subnetwork" "subnet" {
   ip_cidr_range = "10.1.0.0/16"
   region        = "us-central1"
 }
+
+# source : https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_network 
